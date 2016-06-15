@@ -1,13 +1,13 @@
 # SpringRestExample
 Spring JDBC REST 
 
+Spring MVC RESTful Web Service, a simple CRUD application using Spring Rest API
 
-+------------+-------------+------+-----+---------+----------------+
-| Field      | Type        | Null | Key | Default | Extra          |
-+------------+-------------+------+-----+---------+----------------+
-| employeeId | int(11)     | NO   | PRI | NULL    | auto_increment |
-| firstName  | varchar(20) | YES  |     | NULL    |                |
-| lastName   | varchar(20) | YES  |     | NULL    |                |
-| age        | int(3)      | YES  |     | NULL    |                |
-+------------+-------------+------+-----+---------+----------------+
+Mysql
 
+CREATE TABLE employee(
+  employeeId INT AUTO_INCREMENT NOT NULL,
+  firstName varchar(20),
+  lastName varchar(20),
+  age int(3)
+  );
